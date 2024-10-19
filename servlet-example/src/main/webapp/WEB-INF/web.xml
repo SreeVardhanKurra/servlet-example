@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+    version="4.0"
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+  
+  <display-name>Archetype Created Web Application</display-name>
+  
+ <servlet>
+    <servlet-name>ServletInterfaceDemo</servlet-name>
+    <servlet-class>com.servlet.ServletInterfaceDemo</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ServletInterfaceDemo</servlet-name>
+    <url-pattern>/servletInterface</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+ 
+  
+  <servlet>
+    <servlet-name>HttpServletDemo</servlet-name>
+    <servlet-class>com.servlet.HttpServletDemo</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HttpServletDemo</servlet-name>
+    <url-pattern>/httpservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GenericServletDemo</servlet-name>
+    <servlet-class>com.servlet.GenericServletDemo</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>GenericServletDemo</servlet-name>
+    <url-pattern>/genericservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+
+</web-app>
